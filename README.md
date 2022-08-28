@@ -47,7 +47,7 @@ When done, **push your work to Github, including your changes to README**.
 
 ## Exercise 2: Parameterized Tests
 
-Use `TestCast.subTest()` to replace redundant test code with a loop over sets of data values.  
+Use `TestCase.subTest()` to replace redundant test code with a loop over sets of data values.  
 
 By using `subTest()`, if one test case fails the test will continue to execute the other test cases.  If you simply use a loop without `subTest()`, the test will stop after the first failure.
 
